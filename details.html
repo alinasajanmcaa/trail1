@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshop Categories</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #4a2c2a;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 8px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 40px auto;
+        }
+
+        .container h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #4a2c2a;
+        }
+
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .category {
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+        }
+
+        .category .icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .category h3 {
+            color: #4a2c2a;
+            margin-bottom: 10px;
+        }
+
+        .category p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        footer {
+            margin-top: 50px;
+            background-color: #4a2c2a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>📚 My Bookshop</h1>
+        <p>Explore Books by Category</p>
+    </header>
+
+    <div class="container">
+        <h2>Books Details</h2>
+
+        <div class="categories">
+
+            <div class="category">
+                <div class="icon">📖</div>
+                <h3>Fiction</h3>
+                <p>Novels, short stories, literary fiction and more.</p>
+            </div>
+
+            <div class="category">
+                <div class="icon">📚</div>
+                <h3>Non-Fiction</h3>
+                <p>Biographies, essays, current affairs and real-world topics.</p>
+            </div>
+
+            <div class="category">
+                <div class="icon">🧒</div>
+                <h3>Children's Books</h3>
+                <p>Storybooks, picture books, activity books and comics.</p>
+            </div>
+
+            <div class="category">
+                <div class="icon">🎓</div>
+                <h3>Academic</h3>
+                <p>School, college and university textbooks.</p>
+            </div>
+
+            <div class="category">
+                <div class="icon">📝</div>
+                <h3>Exam Preparation</h3>
+                <p>Books for competitive, entrance and government exams.</p>
+            </div>
+
+            <div class="category">
+                <div class="icon">🧠</div>
+                <h3>Self-Help</h3>
+                <p>Personal development, motivation and productivity books.</p>
+            </div>
+
+            <div class="category">
+                <div class="icon">💼</div>
+                <h3>Business</h3>
+                <p>Management, marketing, finance and entrepreneurship.</p>
+            </div>
+
+            <div class="category">
+                <div class="icon">🔬</div>
+                <h3>Science & Technology</h3>
+                <p>Science, computers, programming and technology books.</p>
+            </div>
+
+            <div class="category">
+                <div class="icon">❤️</div>
+                <h3>Romance</h3>
+                <p>Romantic novels and stories about relationships.</p>
+            </div>
+
+            <div class="category">
+                <div class="icon">🕵️</div>
+                <h3>Mystery & Thriller</h3>
+                <p>Crime, suspense, detective and psychological thrillers.</p>
+            </div>
+
+            <div class="category">
+                <div class="icon">🧙</div>
+                <h3>Fantasy & Sci-Fi</h3>
+                <p>Fantasy worlds, science fiction and speculative stories.</p>
+            </div>
+
+            <div class="category">
+                <div class="icon">🌴</div>
+                <h3>Travel</h3>
+                <p>Travel guides, destinations and travel experiences.</p>
+            </div>
+
+            <div class="category">
+                <div class="icon">🎨</div>
+                <h3>Art & Photography</h3>
+                <p>Drawing, painting, design and photography books.</p>
+            </div>
+
+            <div class="category">
+                <div class="icon">🍳</div>
+                <h3>Cooking</h3>
+                <p>Recipes, baking, cuisines and culinary guides.</p>
+            </div>
+
+            <div class="category">
+                <div class="icon">🗣️</div>
+                <h3>Language Learning</h3>
+                <p>Grammar books, dictionaries and language courses.</p>
+            </div>
+
+            <div class="category">
+                <div class="icon">🇮🇳</div>
+                <h3>Indian Literature</h3>
+                <p>Indian authors and literature in regional languages.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 My Bookshop. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

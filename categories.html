@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Categories</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f3e8dc;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #5d4037;
+            color: white;
+            padding: 25px;
+            margin: 0 0 30px 0;
+            font-size: 36px;
+        }
+
+        .categories {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .category {
+            background-color: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            transition: 0.3s;
+        }
+
+        .category:hover {
+            background-color: #ffe0b2;
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .category h2 {
+            color: #5d4037;
+            font-size: 20px;
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .categories {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 500px) {
+            .categories {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>📚 CATEGORIES</h1>
+
+    <div class="categories">
+
+        <div class="category">
+            <h2>📚 Fiction</h2>
+        </div>
+
+        <div class="category">
+            <h2>📖 Non-fiction</h2>
+        </div>
+
+        <div class="category">
+            <h2>🧒 Children’s Books</h2>
+        </div>
+
+        <div class="category">
+            <h2>🎓 Academic & Textbooks</h2>
+        </div>
+
+        <div class="category">
+            <h2>📝 Exam Preparation</h2>
+        </div>
+
+        <div class="category">
+            <h2>💼 Business & Management</h2>
+        </div>
+
+        <div class="category">
+            <h2>💰 Finance & Economics</h2>
+        </div>
+
+        <div class="category">
+            <h2>🧠 Psychology & Self-Help</h2>
+        </div>
+
+        <div class="category">
+            <h2>🏛️ History & Politics</h2>
+        </div>
+
+        <div class="category">
+            <h2>🔬 Science & Technology</h2>
+        </div>
+
+        <div class="category">
+            <h2>💻 Computer & Programming</h2>
+        </div>
+
+        <div class="category">
+            <h2>🗺️ Travel & Geography</h2>
+        </div>
+
+        <div class="category">
+            <h2>❤️ Romance</h2>
+        </div>
+
+        <div class="category">
+            <h2>🕵️ Mystery & Thriller</h2>
+        </div>
+
+        <div class="category">
+            <h2>👻 Horror</h2>
+        </div>
+
+        <div class="category">
+            <h2>🧙 Fantasy & Science Fiction</h2>
+        </div>
+
+    </div>
+
+</body>
+</html>

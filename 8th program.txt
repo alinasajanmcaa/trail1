@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>My Favourite Place</title>
+</head>
+
+<body style="background-color: lightblue;">
+
+<!-- Main heading -->
+<h1 align="center">My Favourite Place</h1>
+
+<h2>Taj Mahal</h2>
+
+
+<p align="justify">
+<b>Taj Mahal</b> was designated as a UNESCO World Heritage Site in 1983 for being "the jewel of Islamic art in India and one of the universally admired masterpieces of the world's heritage". It is regarded as one of the best examples of Mughal architecture and a symbol of Indian history. The Taj Mahal is a major tourist attraction and attracts more than five million visitors a year. In 2007, it was declared a winner of the New 7 Wonders of the World initiative. The Taj Mahal and its setting, surrounding grounds, and structures are a Monument of National Importance, administered by the Archaeological Survey of India.[6]
+</p>
+
+<p align="justify">
+taj mahal is a wonderful place to enjoy nature and spend time with
+family and friends. The <u>beautiful scenery</u> and peaceful
+atmosphere make it my favourite place.
+</p>
+
+<br>
+
+<h3>Beautiful View of taj mahal</h3>
+
+
+<p align="center">
+<img src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2"
+width="400"
+height="250"
+alt="Munnar">
+</p>
+
+<br>
+
+<h3>More Information</h3>
+
+<p align="center">
+<a href="https://www.keralatourism.org/destination/munnar/202">
+Visit taj mahal Website
+</a>
+</p>
+
+<h4>Why I Like taj mahal?</h4>
+
+<p>
+taj mahal is <b>beautiful</b>, <i>peaceful</i> and
+<u>refreshing</u>.
+</p>
+
+</body>
+</html>
